@@ -1,3 +1,7 @@
+<head>
+  <title>Contact Me</title>
+  <link rel="stylesheet" type="text/css" href="/css/contact.css">
+</head>
 <h1>Elegant Contact Form</h1>
 <form class="cf">
   <div class="half left cf">
