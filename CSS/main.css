@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: rgb(209,202,196);
+    /*background-image: url("6963844-yellow-and-white-wallpaper.jpg");
+    /*background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;*/
+    margin:0;
+}
+
+/* Images*/
+/*img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }*/
+
+/* Navigation Bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } 
+li a:hover:not(.active) {
+    background-color: #111;
+  } 
+.active {
+    background-color: #4CAF50;
+  }
+
+/* Inputs*/
+input[type=text], input[type=email] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: #3CBC8D;
+    color: white;
+  }
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+/* Websit Layout*/
+.footer {
+    background-color: rgb(99, 94, 94);
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+  }
+.header {
+    background-color: rgb(209,202,196);
+    padding: 15px;
+    margin: 0;
+  }
+
+.column {/* Create three unequal columns that floats next to each other */
+    float: left;
+  }
+  
+.column.side {/* Left and right column */
+    width: 20%;
+  }
+  
+.column.middle {/* Middle column */
+    width: 60%;
+  }
+.row:after {/* Clear floats after the columns */
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Fonts */
+h1 {
+  text-align: left;
+  font-family: "Calibri", Times, serif;
+}
+
+h5 {
+    text-align: left;
+    font-family: "Calibri", Times, serif;
+    color: rgb(77,77,77);
+    letter-spacing: 2px;
+    line-height: 0.2;
+    word-spacing: 5px;
+}
+
+p {
+    text-align: right;
+    font-family: "Calibri", Times, serif;
+    font-size: 20px;
+}
+
+/* Margins
+div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }*/
